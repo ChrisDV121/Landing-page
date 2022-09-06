@@ -1,0 +1,80 @@
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+
+
+}
+
+a{
+    color: var(--primary);
+}
+a:hover{
+    color: var(--secundary);
+}
+.block{
+    margin-bottom: 120px;
+}
+.title{
+    text-transform: uppercase;
+}
+
+.subtitle{
+    color: var(--medium);
+    font-weight: 400;
+}
+
+
+.button{
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    
+}
+
+.button-primay{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.button-primay:hover{
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+
+.button-primay-outline{
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.button-primay-outline:hover{
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+    
+}
+
+#servicos a.destaque{
+    display: block;
+    background: var(--light);
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+}
+#servicos a.destaque:hover{
+    background: white;
+    box-shadow:  0px 0px 10px 0px rgba(0,0,0,0.12);
+    transform: scale(1.05);
+}
+#servicos p{
+    color: var(--dark);
+}
+
+#servicos a.destaque .img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+#servicos a.destaque .img-container img{
+    max-width: 150px;
+}
